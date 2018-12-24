@@ -1,0 +1,2 @@
+The Unknown gem has an interesting crystal lattice, due to which a crystal or its part can be divided into only eight or twelve pieces at a time.
+For the manufacture of jewelry you need N parts. How many faults are enough to make to get this amount from a single crystal?
