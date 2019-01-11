@@ -1,4 +1,3 @@
-import java.lang.reflect.Array;
 import java.util.Scanner;
 
 public class Main {
@@ -9,9 +8,12 @@ public class Main {
     private static int[] paresOfBags;
     private static int firstHand;
     private static int secondHand;
+    private static boolean executeProgram;
+    private static int sumOfFour;
 
     public static void main(String[] args) {
-        boolean executeProgram = input();
+        executeProgram = input();
+        sumOfFour = bags[0] + bags[1] + bags[2] + bags[3];
 
         if (executeProgram) {
             fillParesOfBags();
@@ -19,23 +21,32 @@ public class Main {
             bags[findMax(paresOfBags)] = -1;
             bags[findMax(paresOfBags) + 1] = -1;
 
-            for (int pare : paresOfBags) {
-                pare = -1;
+            for (int i = 0; i < paresOfBags.length; i++) {
+                paresOfBags[i] = -1;
             }
 
             fillParesOfBags();
-            secondHand = paresOfBags[findMax(paresOfBags)];
-            System.out.println((firstHand + secondHand) + " first: " + firstHand + ", second: " + secondHand);
 
+            boolean k = false;
             for (int pare : paresOfBags) {
-                System.out.println("pare " + pare);
+                if (pare != -1) {
+                    k = true;
+                }
             }
+
+            if (k) {
+                secondHand = paresOfBags[findMax(paresOfBags)];
+                System.out.println((firstHand + secondHand));
+            } else {
+                System.out.println(sumOfFour);
+            }
+
         }
     }
 
     private static boolean input() {
-        int N = in.nextInt();
-        if (N < 4 && N > 10000) {
+        N = in.nextInt();
+        if (N < 4 || N > 10000) {
             return false;
         }
         bags = new int[N];

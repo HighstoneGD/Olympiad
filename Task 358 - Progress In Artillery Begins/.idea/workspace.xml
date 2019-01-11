@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a156b696-23ef-4423-86fd-44115cfa3102" name="Default Changelist" comment="">
+    <list default="true" id="a9205b1c-b32c-48eb-822c-4c405a9ca2b1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../City stage olymp. Dnipro - Gem/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Task 353 - Candies/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task 353 - Candies/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task 353 - Candies/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task 353 - Candies/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task 353 - Candies/out/production/Task 353 - Candies/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Task 353 - Candies/out/production/Task 353 - Candies/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task 353 - Candies/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task 353 - Candies/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Test1/readme.txt.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,16 +17,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-              <folding>
-                <element signature="method#input#0;class#Main#0" />
-                <element signature="method#fillParesOfBags#0;class#Main#0" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -63,23 +60,20 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Task353 - Candies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Task 353 - Candies" type="462c0819:PsiDirectoryNode" />
+              <item name="Task 358 - Progress In Artillery Begins" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Task 358 - Progress In Artillery Begins" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -93,72 +87,68 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Task 353 - Candies" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a156b696-23ef-4423-86fd-44115cfa3102" name="Default Changelist" comment="" />
-      <created>1546974745569</created>
+      <changelist id="a9205b1c-b32c-48eb-822c-4c405a9ca2b1" name="Default Changelist" comment="" />
+      <created>1547191648328</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1546974745569</updated>
+      <updated>1547191648328</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
     </layout>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-          <folding>
-            <element signature="method#input#0;class#Main#0" />
-            <element signature="method#fillParesOfBags#0;class#Main#0" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
