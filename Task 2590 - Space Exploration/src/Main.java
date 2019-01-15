@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
 
     private static final Scanner in = new Scanner(System.in);
-    private static int n;
+    private static int n = 0;
     private static int amount = 0;
     private static boolean executeProgram;
     private static char[][] area;
@@ -25,7 +25,8 @@ public class Main {
 
                 System.out.println(amount);
             }
-        } catch (Exception e) {}
+        } catch (Exception e) {
+        }
 
     }
 
@@ -33,7 +34,8 @@ public class Main {
         String nSt = in.nextLine();
         try {
             n = Integer.valueOf(nSt);
-        } catch (Exception e) {}
+        } catch (Exception e) {
+        }
 
         if (n < 1 || n > 1000) {
             return false;
@@ -51,14 +53,15 @@ public class Main {
                     }
                 }
             }
-        } catch (Exception e) {}
+        } catch (Exception e) {
+        }
 
         return true;
     }
 
     private static void fillAsteroid(int coorI, int coorJ) {
         amount++;
-        area[coorI][coorJ] = (char)amount;
+        area[coorI][coorJ] = (char) amount;
         isFinished = false;
 
         while (!isFinished) {
@@ -68,22 +71,22 @@ public class Main {
 
     private static void fillPart(int coorI, int coorJ, int count) {
         if (coorI + 1 < n && area[coorI + 1][coorJ] == '*') {
-            area[coorI + 1][coorJ] = (char)count;
+            area[coorI + 1][coorJ] = (char) count;
             fillPart(coorI + 1, coorJ, count);
         }
 
         if (coorI - 1 >= 0 && area[coorI - 1][coorJ] == '*') {
-            area[coorI - 1][coorJ] = (char)count;
+            area[coorI - 1][coorJ] = (char) count;
             fillPart(coorI - 1, coorJ, count);
         }
 
         if (coorJ + 1 < n && area[coorI][coorJ + 1] == '*') {
-            area[coorI][coorJ + 1] = (char)count;
+            area[coorI][coorJ + 1] = (char) count;
             fillPart(coorI, coorJ + 1, count);
         }
 
         if (coorJ - 1 >= 0 && area[coorI][coorJ - 1] == '*') {
-            area[coorI][coorJ - 1] = (char)count;
+            area[coorI][coorJ - 1] = (char) count;
             fillPart(coorI, coorJ - 1, count);
         }
 
